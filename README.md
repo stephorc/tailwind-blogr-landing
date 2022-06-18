@@ -1,5 +1,7 @@
 # Frontend Mentor - Blogr landing page solution
 
+![Project Preview](https://github.com/stephorc/tailwind-blogr-landing/blob/main/design/desktop-preview.jpg)
+
 This is my solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
@@ -80,8 +82,7 @@ I'd like to continue focusing on _ in future projects.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [LogRocket](https://blog.logrocket.com/how-to-use-custom-fonts-tailwind-css/) - This article helped me decide how to best import the custom project font.
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
 - Frontend Mentor - [@stephorc](https://www.frontendmentor.io/profile/stephorc)

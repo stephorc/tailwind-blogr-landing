@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h3, h4,
+h5, h6,
+main section:first-child h2 {
+  color: hsl(208, 49%, 24%);
+}

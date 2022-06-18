@@ -1,99 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Steph O.">
+    <meta name="description" content="This webpage is my (tailwind/js) solution to Frontend Mentor's Blogr Challenge.">
+    <meta name="robots" content="index, follow">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Blogr]</title>
+    <title>Frontend Mentor | Blogr</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Product
+    <!-- Flavicon & External Sheet -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/output.css">
 
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
-  Company
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="text-white p-4 bg-red-400 rounded-bl-[5em]">
+      <div class="flex items-center justify-between pt-8">
+        <img src="images/logo.svg" alt="Blogr">
+        <img class="md:hidden" src="images/icon-hamburger.svg" alt="menu" id="burger" onclick="hamMenuToggle()">
+        <div class="absolute hidden md:flex md:gap-8 md:relative md:items-center" id="hamMenuItems">
+          <nav class="flex gap-8">
+            <ul>
+              <li>Product</li>
+              <div class="md:hidden">
+                <li>Overview</li>
+                <li>Pricing</li>
+                <li>Marketplace</li>
+                <li>Features</li>
+                <li>Integrations</li>
+              </div>
+            </ul>
+            <ul>
+              <li>Company</li>
+              <div class="md:hidden">
+                <li>About</li>
+                <li>Team</li>
+                <li>Blog</li>
+                <li>Careers</li>
+              </div>
+            </ul>
+            <ul>
+              <li>Connect</li>
+              <div class="md:hidden">
+                <li>Contact</li>
+                <li>Newsletter</li>
+                <li>LinkedIn</li>
+              </div>
+            </ul>
+          </nav>
+          <div class="gap-2 hidden">
+            <button class="font-bold py-3 px-6 rounded-full hover:bg-white hover:bg-opacity-30">Login</button>
+            <button class="font-bold py-3 px-5 rounded-full hover:bg-white hover:bg-opacity-30">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="text-center px-4 py-16">
+        <h1 class="text-[1.8rem] font-bold md:text-2xl">
+          A modern publishing platform
+        </h1>
+        <p class="text-base">
+          Grow your audience and build your online brand
+        </p>
+        <div class="py-8">
+          <button class="bg-white border-white border-solid border-[.1rem] text-red-400 font-bold mr-3 py-3 px-5 rounded-full">Start for Free</button>
+          <button class="bg-transparent border-white border-solid border-[.1rem] font-bold py-3 px-6 rounded-full">Learn More</button>
+        </div>
+      </div>
+    </header>
 
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-
-  Contact
-  Newsletter
-  LinkedIn
-  
-  Login
-  Sign Up
-
-  A modern publishing platform
-  Grow your audience and build your online brand
-
-  Start for Free
-  Learn More
-
-  Designed for the future
-
-  Introducing an extensible editor
-  Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
-  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
-  videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
-  change the looks of a blog.
-
-  Robust content management
-  Flexible content management enables users to easily move through posts. Increase the usability of your blog 
-  by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
-
-  State of the Art Infrastructure
-  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
-  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
-
-  Free, open, simple
-  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
-  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
-  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
-
-  Powerful tooling
-  Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
-  capable of producing even the most complicated sites.
-
-  Product
-
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-  
-  Contact
-  Newsletter
-  LinkedIn
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </body>
 </html>
