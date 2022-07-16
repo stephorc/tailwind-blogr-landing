@@ -1,10 +1,10 @@
 # Frontend Mentor - Blogr landing page solution
 
-![Project Preview](https://github.com/stephorc/tailwind-blogr-landing/blob/main/design/desktop-preview.jpg)
-<!-- ![Desktop Solution](https://github.com/stephorc/testimonials-grid-section/blob/main/desktop-solution.png)
-![Tablet Solution](https://github.com/stephorc/testimonials-grid-section/blob/main/tablet-solution.png)
-![Mobile Solution](https://github.com/stephorc/testimonials-grid-section/blob/main/mobile-solution.png) -->
-<!-- **Live Site URL** - ***https://your-live-site-url.com*** -->
+![Blogr - Desktop Solution](https://github.com/stephorc/tailwind-blogr-landing/blob/main/Blogr-desktop.png)
+<!--![Tablet Solution](https://github.com/stephorc/testimonials-grid-section/blob/main/tablet-solution.png) -->
+![Blogr - Mobile Solution](https://github.com/stephorc/testimonials-grid-section/blob/Blogr-mobile.png)
+
+**Live Site URL** - ***https://stephorc.github.io/tailwind-blogr-landing/***
 
 This is my solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
