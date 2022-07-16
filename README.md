@@ -1,8 +1,8 @@
 # Frontend Mentor - Blogr landing page solution
 
 ![Blogr - Desktop Solution](https://github.com/stephorc/tailwind-blogr-landing/blob/main/Blogr-desktop.png)
-<!--![Tablet Solution](https://github.com/stephorc/testimonials-grid-section/blob/main/tablet-solution.png) -->
-![Blogr - Mobile Solution](https://github.com/stephorc/testimonials-grid-section/blob/Blogr-mobile.png)
+<!--![Blogr -Tablet Solution](https://github.com/stephorc/testimonials-grid-section/blob/main/Blogr-tablet.png) -->
+<!-- ![Blogr - Mobile Solution](https://github.com/stephorc/testimonials-grid-section/blob/main/Blogr-mobile.png) -->
 
 **Live Site URL** - ***https://stephorc.github.io/tailwind-blogr-landing/***
 
