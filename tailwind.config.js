@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     screens: {
       sm: '480px',
-      md: '800px',
+      md: '844px',
       lg: '1024px',
       xl: '1440px',
     },
@@ -27,10 +27,10 @@ module.exports = {
         bodyTxt: 'hsl(207, 13%, 34%)',
       },
       backgroundImage: {
-        'hero-img-m': "linear-gradient(hsl(353, 100%, 62%), hsl(13, 100%, 72%)), url('../images/bg-pattern-intro-mobile.svg')",
-        'hero-img-dt': "linear-gradient(hsl(353, 100%, 62%), hsl(13, 100%, 72%)), url('../images/bg-pattern-intro-desktop.svg')",
-        'main-sect2-img': "linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%)), url('../images/bg-pattern-circles.svg')",
-      }
+        'hero-img-m': "linear-gradient(hsl(353, 100%, 62%), hsl(13, 100%, 72%)), url('/images/bg-pattern-intro-mobile.svg')",
+        'hero-img-dt': "linear-gradient(hsl(353, 100%, 62%), hsl(13, 100%, 72%)), url('/images/bg-pattern-intro-desktop.svg')",
+        'main-sect2-img': "linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%)), url('/images/bg-pattern-circles.svg')",
+      },
     },
   },
   plugins: [],

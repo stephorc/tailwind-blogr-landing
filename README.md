@@ -1,8 +1,8 @@
 # Frontend Mentor - Blogr landing page solution
 
-![Blogr - Desktop Solution](https://github.com/stephorc/tailwind-blogr-landing/blob/main/Blogr-desktop.png)
-<!--![Blogr -Tablet Solution](https://github.com/stephorc/testimonials-grid-section/blob/main/Blogr-tablet.png) -->
-<!-- ![Blogr - Mobile Solution](https://github.com/stephorc/testimonials-grid-section/blob/main/Blogr-mobile.png) -->
+![Blogr - Desktop Solution](https://github.com/stephorc/tailwind-blogr-landing/blob/main/solution/Blogr-desktop.png)
+<!-- ![Blogr -Tablet Solution](https://github.com/stephorc/testimonials-grid-section/blob/main/solution/Blogr-tablet.png)
+![Blogr - Mobile Solution](https://github.com/stephorc/testimonials-grid-section/blob/main/solution/Blogr-mobile.png) -->
 
 **Live Site URL** - ***https://stephorc.github.io/tailwind-blogr-landing/***
 
@@ -34,7 +34,6 @@ Users should be able to:
 
 - [LogRocket](https://blog.logrocket.com/how-to-use-custom-fonts-tailwind-css/) - This article helped me decide how to best import the custom project font.
 - [HubSpot](https://blog.hubspot.com/website/html-dropdown) - HubSpot's a great site for both marketing and Frontend tips and tricks.
-- [TailwindCSS Docs](https://tailwindcss.com/docs/line-height) - Always read the docs. Line height is 'leading-[some number],' when using Tailwind.
+- [TailwindCSS Docs](https://tailwindcss.com/docs/line-height) - Always read the docs. For example, line height is called 'leading-#' in Tailwind classes.
 
 <!-- npx tailwindcss -i ./input.css -o ./css/output.css --watch -->
-<!-- This project reinforced my understanding of Tailwind classes, including flex, positioning, and transitions. -->
